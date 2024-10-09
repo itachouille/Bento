@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  html,
+  body {
+    @apply bg-color-1 text-color-2 font-mono text-base;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
