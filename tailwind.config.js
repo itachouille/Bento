@@ -12,6 +12,7 @@ export default {
           2: "#FFFFFF",
           3: "#B3B3B3",
           4: "#1D1D1D",
+          5: "#232323",
         },
       },
       fontFamily: {
@@ -64,12 +65,8 @@ export default {
           "@apply py-3 px-6 rounded-3xl text-xs text-color-4 bg-color-2 tracking-wider hover:text-color-2 hover:bg-transparent border":
             {},
         },
-        ".button-ghost": {
-          "@apply py-3 px-6 rounded-3xl text-xs text-color-2 bg-transparent border tracking-wider hover:text-color-4 hover:bg-color-2":
-            {},
-        },
         ".card": {
-          "@apply bg-color-4 rounded-[64px]  px-16 py-10": {},
+          "@apply bg-color-4 rounded-[64px] px-8 py-5 lg:px-16 lg:py-10": {},
         },
       });
       addUtilities({

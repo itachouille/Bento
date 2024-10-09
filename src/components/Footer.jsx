@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="container">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between py-6">
           <img src={footerLogo} alt="logo" />
           <div className="flex gap-2">
             {socials.map((item) => (

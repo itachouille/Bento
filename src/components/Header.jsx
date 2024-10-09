@@ -6,16 +6,15 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between py-6">
           <div className="">
             <a href="/">
               <img className="size-20 lg:size-full" src={logo} alt="logo" />
             </a>
           </div>
-          <div className="hidden lg:block">
+          <div className="">
             <Navbar />
           </div>
-          <div className="lg:hidden">menu</div>
           <div className="flex gap-2">
             {socials.map((item) => (
               <a key={item.id} href={item.url}>
