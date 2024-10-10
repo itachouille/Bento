@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+}
 
 * {
   scroll-behavior: smooth;
@@ -9,7 +15,7 @@
 @layer base {
   html,
   body {
-    @apply bg-color-1 text-color-2 font-mono text-base;
+    @apply bg-color-1 font-sans text-base text-color-2;
     height: 100%;
     margin: 0;
     padding: 0;

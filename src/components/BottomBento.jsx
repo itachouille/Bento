@@ -7,7 +7,7 @@ const BottomBento = () => {
         <div className="card overflow-y-hidden px-0 pb-0">
           <div className="flex justify-between px-16">
             <div className="pb-2">
-              <h2 className="">45K+ Downloads in Figma</h2>
+              <h2>45K+ Downloads in Figma</h2>
               <p className="mb-4 text-color-3">
                 Freebie design systems & libraries for design community 🗂
               </p>

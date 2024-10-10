@@ -16,7 +16,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-montserrat)", ...fontFamily.sans],
+        sans: ["var(--font-poppins)", ...fontFamily.sans],
       },
     },
   },
@@ -66,7 +66,8 @@ export default {
             {},
         },
         ".card": {
-          "@apply bg-color-4 rounded-[64px] px-8 py-5 lg:px-16 lg:py-10": {},
+          "@apply bg-color-4 rounded-3xl lg:rounded-[64px] px-8 py-5 lg:px-16 lg:py-10":
+            {},
         },
       });
       addUtilities({
