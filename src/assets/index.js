@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import mainBlock from "./mainBlock.png";
 import arrow from "./arrow.svg";
-import projects from "./projects.svg";
+import projects from "./projects.png";
 
 import phone from "./phone.png";
 import twitter from "./twitter.png";
