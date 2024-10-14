@@ -19,7 +19,7 @@ const Navbar = () => {
             opacity: 0,
           }));
         }}
-        className="border-color-5 relative mx-auto flex w-fit rounded-full border bg-color-1 p-1"
+        className="relative mx-auto flex w-fit rounded-full border border-color-5 bg-color-1 p-1"
       >
         {navigations.map((item) => (
           <Tab url={item.url} key={item.id} setPosition={setPosition}>
@@ -59,7 +59,7 @@ const Cursor = ({ position }) => {
   return (
     <motion.li
       animate={position}
-      className="border-color-5 absolute z-0 h-12 rounded-full border bg-color-4"
+      className="absolute z-0 h-12 rounded-full border border-color-5 bg-color-4"
     />
   );
 };

@@ -16,7 +16,7 @@ const Header = () => {
             <Navbar />
           </div>
           <div className="lg:hidden">menu</div>
-          <div className="flex gap-2">
+          <div className="flex gap-6">
             {socials.map((item) => (
               <a key={item.id} href={item.url}>
                 <img

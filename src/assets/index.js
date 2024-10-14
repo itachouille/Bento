@@ -5,18 +5,18 @@ import projects from "./projects.png";
 
 import phone from "./phone.png";
 import twitter from "./twitter.png";
-import card6 from "./card-6.png";
+import card6 from "./cards/card-6.png";
 import stack1 from "./stacks/stack-1.svg";
 import stack2 from "./stacks/stack-2.svg";
 import stack3 from "./stacks/stack-3.svg";
 import stack4 from "./stacks/stack-4.svg";
 
-import card7 from "./card-7.png";
+import card7 from "./cards/card-7.png";
 import figmaIcon from "./figmaIcon.svg";
 
-import card8 from "./card-8.png";
-import card9 from "./card-9.png";
-import card10 from "./card-10.png";
+import card8 from "./cards/card-8.png";
+import card9 from "./cards/card-9.png";
+import card10 from "./cards/card-10.png";
 
 import dribbleIcon from "./socials/dribble.svg";
 import facebookIcon from "./socials/facebook.svg";

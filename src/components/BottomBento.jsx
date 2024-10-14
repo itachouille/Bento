@@ -2,13 +2,13 @@ import { card10, card7, card8, card9, figmaIcon } from "../assets";
 
 const BottomBento = () => {
   return (
-    <section className="container mb-20 mt-4">
+    <section id="bottom" className="container mb-20 mt-4">
       <div className="grid gap-4 lg:grid-cols-2">
         <div className="card overflow-y-hidden px-0 pb-0">
           <div className="flex justify-between px-16">
             <div className="pb-2">
-              <h2>45K+ Downloads in Figma</h2>
-              <p className="mb-4 text-color-3">
+              <p className="text-sm xl:text-lg">45K+ Downloads in Figma</p>
+              <p className="mb-4 text-sm text-color-3 xl:text-lg">
                 Freebie design systems & libraries for design community 🗂
               </p>
             </div>

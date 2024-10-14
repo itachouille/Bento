@@ -25,7 +25,7 @@ export default {
       addBase({});
       addComponents({
         ".container": {
-          "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-14 xl:max-w-[87.5rem]":
+          "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-14 xl:max-w-[110rem]":
             {},
         },
         ".h1": {
