@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import menu from "./menu.svg";
 import mainBlock from "./mainBlock.png";
 import arrow from "./arrow.svg";
 import projects from "./projects.png";
@@ -26,6 +27,7 @@ import footerLogo from "./footerLogo.svg";
 
 export {
   logo,
+  menu,
   mainBlock,
   arrow,
   projects,
